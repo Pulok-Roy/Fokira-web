@@ -1,6 +1,5 @@
 body{
     font-family: 'Poppins', sans-serif;
-
     margin: 0;
 }
 section{
@@ -12,12 +11,12 @@ section{
 }
 h1 {
    
-    font-size: 53px;
-   line-height: 60%;
-   letter-spacing: 5px;
+    font-size: 46px;
+   line-height: 50%;
+   letter-spacing: 3px;
 }
 .head{
-    background-image: url("images/Frame-57.jpg");
+    background-image: url("images/Frame-59.jpg");
     background-repeat: no-repeat ;
 }
 #font-p-m {
@@ -42,6 +41,8 @@ margin-left: 5% ;
 
 }
 .link-button{
+    
+    margin-left: 100px;
     text-align: 90px;
     font-size: 1em;
     text-decoration: none;
@@ -58,32 +59,26 @@ margin-left: 5% ;
     
 }
 #about-p-m {
-    padding-top: 2%;
+    padding-top: 13%;
     font-size: 20px;
     
 }
 .food-table {
     display: table;  
 }
-.food-rec {
+.food-recipe {
    width: 25%;
     float: left;
     padding-top: 20px;
     padding: 40px;
     margin-left: 30px;
     box-shadow: 5px 7px 40px gray;
-    height: 70%;
+    height: 65%;
    border-radius: 30px;
 }
-.finish {
-    display: table; 
-}
-.fin-l{
-    width: 30%;
-    float: left;
-    padding: 30px;
-    margin-left: 30px;
-
+#last-section{
+    text-align: center;
+    padding: 40px;
 }
 .recepie{
     text-align: center;
@@ -97,11 +92,14 @@ margin-left: 5% ;
 h3 span 
 { color: orange;}
 footer{
-    background-color: rgb(39, 177, 119);
+    background-color: rgb(6, 35, 114);
     height: 200px;
 }
-footer p{
-    color: whitesmoke;
+footer {
+    color: white;
     text-align: center;
     
+}
+footer span{
+    color: lightgreen;
 }
